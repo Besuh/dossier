@@ -1,0 +1,30 @@
+{
+    "name": "Brian's Portfolio",
+    "short_name": "BP",
+    "icons": [{
+        "src": "img/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    }, {
+        "src": "img/icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "img/icon-152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "img/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }, {
+        "src": "img/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "start_url": "index.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "index.html",
+    "theme_color": "#3367D6"
+}

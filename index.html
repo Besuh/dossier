@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#3367D6">
+    <meta name="Description" content="My portfolio yo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>I'm Brian</title>
+    
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="wrapper">
+        <div></div>
+    <div class="logo">
+        <ul class="b">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="rian">rian suh</li>
+          </ul>
+    </div>
+    <div></div>
+    <button id="td">Tower Defense!</button>
+    <button id="TW">TW Inc</button>
+    <button id="cat">Cat Attack</button>
+    <button id="pwa">Progressive Web Apps</button>
+    <img id="bw"src="img/bw.png">
+    <span class="paper-clip"></span>
+    <div id="component"></div>
+    <button id="close">X Close</button>
+</div>
+    <script>
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(){
+                        console.log('Service Worker Registered');
+                    });
+            }
+        </script>
+    <script src="/js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</body>
+</html>

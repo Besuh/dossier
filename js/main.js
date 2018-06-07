@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#component").load("views/main.html");
+    $("#td").click(function(){
+        console.log("woohoo");
+        $("#component").load("views/td.html");
+    });
+    $("#TW").click(function(){
+        console.log("worked");
+        $("#component").load("views/tw.html");
+    });
+    $("#cat").click(function(){
+        console.log("worked");
+        $("#component").load("views/cat.html");
+    });
+    $("#pwa").click(function(){
+        console.log("worked");
+        $("#component").load("views/pwa.html");
+    });
+    $("#close").click(function(){
+        console.log("main?");
+        $("#component").load("views/main.html");
+    });
+});
